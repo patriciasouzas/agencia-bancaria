@@ -12,6 +12,8 @@ public class Pessoa {
         this.email = email;
         counter += 1;
     }
+    public Pessoa() {
+    }
 
     public String getNome() {
         return nome;
